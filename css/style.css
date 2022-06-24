@@ -1,0 +1,38 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box; 
+}
+body{
+      background-color: #000000;
+
+}
+div.initials{
+    border: 2px solid #ffffff;
+    padding: 10px 10px;
+    color: #ffffff;
+    margin-bottom:x;
+
+}
+.main{
+    border:solid;
+  height:100vh;
+}
+
+.menu-links{
+    float: left;
+}
+.menu{
+    float: right;
+    padding: 10px 10px;
+    margin-right: 80px;
+}
+.menu ul li{
+     display: inline-block;
+     margin-left: 5px;
+     color: #ffffff;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
