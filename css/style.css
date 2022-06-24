@@ -7,32 +7,40 @@ body{
       background-color: #000000;
 
 }
+.top-section{
+     width: 100%;      
+                         
+}
+.horizontal-grid{
+    display: inline-block;
+}
 div.initials{
-    border: 2px solid #ffffff;
-    padding: 10px 10px;
+    border: 3px solid #ffffff;
+    padding: 10px 30px;
     color: #ffffff;
-    margin-bottom:x;
+    margin-top: 10px;
+
 
 }
-.main{
-    border:solid;
-  height:100vh;
-}
-
-.menu-links{
-    float: left;
-}
-.menu{
+nav.menu{
+     
     float: right;
-    padding: 10px 10px;
-    margin-right: 80px;
+    margin-top: 15px;
+    margin-right: 90px;
+
+
 }
 .menu ul li{
      display: inline-block;
-     margin-left: 5px;
+     margin-left: 12px;
      color: #ffffff;
 }
 a{
     color:#ffffff;
     text-decoration: none;
+}
+ul li a:hover{
+    border-bottom: 4px solid #ffffff;
+    padding-bottom:10px;
+    cursor: pointer;
 }
