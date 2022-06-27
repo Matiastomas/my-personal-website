@@ -13,10 +13,10 @@
        
             <ul >
                 <li>
-                  <a href="#aboutme">About Me</a>
+                  <a href="#aboutme" onclick="getScreenHeight()" id="about">About Me</a>
                 </li>
                 <li>
-                    <a href="#project">Projects</a>
+                    <a href="#project" onclick="manipulateFooter()"  >Projects</a>
                 </li>
                 <li>
                     <a href="#">Resume</a>
@@ -51,7 +51,7 @@
              </div>
           </div>
        </section>
-       <footer>
+       <footer id="footer1">
         <div>&copy 2022</div>
         <div>social medias</div>
      </footer>
@@ -60,7 +60,10 @@
        <section class="main-content" id="project">
             <h3>Projects</h3>
        </section>
-       
-
+       <footer>
+        <div>&copy 2022</div>
+        <div>social medias</div>
+     </footer>
+<script src="js/manipulate-footer.js"></script>
 </body>
 </html>
