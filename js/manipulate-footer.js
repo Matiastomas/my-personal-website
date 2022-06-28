@@ -18,7 +18,7 @@ function resetDiv(ScreenHeight){
         var resetFooter = document.createElement("footer");
         resetFooter.setAttribute ('id', 'footer1');
         resetFooter.innerText = "teste";
-        const target = document.querySelector("#aboutme");
+        const target = document.querySelector("#footer-goes-bellow");
        target.parentNode.insertBefore(resetFooter,target );
 
     }

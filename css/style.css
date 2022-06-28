@@ -116,13 +116,13 @@ footer{
     color: #ffffff;
     background-color: #000000;
     text-align: center;
-    padding:30px;
+    padding:40px;
     
 }
 #footer1{
     color: #ffffff;
     background-color: #000000;
     text-align: center;
-    padding:30px;
-    margin-top:20px;
+    padding:70px;
+    top:0px;
 }
