@@ -126,3 +126,46 @@ footer{
     padding:70px;
     top:0px;
 }
+
+.contact-form{
+
+     padding-bottom: 30px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+    
+
+     
+}
+
+input [type="email"], input [type="button"], textarea, label{
+    display: block;
+}
+.input-email{
+     width:80%;
+     border-width: 1px ;
+     border-radius: 4px ;
+     padding: 15px;
+
+}
+form{
+    width: 60%;
+    margin-left: 190px;
+}
+label{
+    margin-top: 7px;
+}
+.button-style{
+   margin-top: 10px;
+   background-color: #000000;
+   padding: 12px 30px;
+   color: #ffffff;
+   border-radius: 4px;
+   
+}
+textarea{
+    width:80%;
+    border-width: 1px ;
+    border-radius: 4px ;
+    height: 250px;
+}
