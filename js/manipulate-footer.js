@@ -1,4 +1,4 @@
-let ScreenHeight; 
+/*let ScreenHeight; 
 
 function manipulateFooter(){
     var footer = document.getElementById("footer1");
@@ -23,4 +23,4 @@ function resetDiv(ScreenHeight){
 
     }
     
-}
+}*/
